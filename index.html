@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>score game</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+
+
+
+  <div class="diceContainer">
+    <div class="dice index1">
+      <p class="circle"></p>
+    </div>
+    <div class="dice index2">
+      <p class="twoOne circle"></p>
+      <p class="twoTwo circle"></p>
+    </div>
+    <div class="dice index3">
+      <p class="threeOne circle"></p>
+      <p class="threeTwo circle"></p>
+      <p class="threeThree circle"></p>
+    </div>
+    <div class="dice index4">
+      <P class="fourOne circle"></P>
+      <P class="fourTwo circle"></P>
+      <P class="fourThree circle"></P>
+      <P class="fourFour circle"></P>
+    </div>
+    <div class="dice index5">
+      <p class="fiveOne circle"></p>
+      <p class="fiveTwo circle"></p>
+      <p class="fiveThree circle"></p>
+      <p class="fiveFour circle "></p>
+      <p class="fiveFive circle"></p>
+    </div>
+    <div class="dice index6">
+      <p class="sixOne circle"></p>
+      <p class="sixTwo circle"></p>
+      <p class="sixThree circle"></p>
+      <p class="sixFour circle"></p>
+      <p class="sixFive circle"></p>
+      <p class="sixSix circle"></p>
+    </div>
+    <div class="dice index7">
+      <img src="./assets/laughing-7221581_1280.webp" alt="laughing icon" class="laughingIcon">
+    </div>
+  </div>
+
+  <!-- player 1 -->
+  <div class="playersContainer glass">
+    <div class="player1 player">
+      <div class="playerDetail">
+        <p class="playerName">PLAYER 1</P>
+        <span class="mainScore PlayerOneMainScore">0</span>
+      </div>
+      <div class="currentContainer">
+        <p class="current">CURRENT</p>
+        <span class="currentScore playerOneCurrentScore">0</span>
+      </div>
+
+
+    </div>
+    <!-- player 2 -->
+    <div class="player2 player">
+      <div class="playerDetail">
+        <p class="playerName">PLAYER 2</P>
+        <span class="mainScore playerTwoMainScore">0</span>
+      </div>
+      <div class="currentContainer">
+        <p class="current">CURRENT</p>
+        <span class="currentScore PlayerTwoCurrentScore">0</pz>
+      </div>
+    </div>
+  </div>
+
+  <div class="GameControllContainer newGamePosition">
+    <img src="./assets/1584162-200.png" alt="reGame icon" class="newGameIcon">
+    <span class="newGame">NEW GAME</span>
+  </div>
+
+  <div class="GameControllContainer DiceRollPosition" id="holdContainer">
+    <img
+      src="./assets/poverty-people-hold-palm-ask-help-silhouette-black-icon-homeless-human-arm-beg-money-give-helpful-charity-glyph-pictogram-poor-person-hand-people-support-sign-isolated-illustration-vector.jpg"
+      alt="reGame icon" class="newGameIcon hold">
+    <span class="newGame">HOLD</span>
+  </div>
+
+
+  <dialog>
+
+
+
+    
+    <span class="winnerClass"><span class="WinnerName"></span><span>🥇win</span></span>
+
+    <button class="closeButton">close</button>
+
+  </dialog>
+
+
+
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
